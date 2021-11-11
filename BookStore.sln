@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.API", "src\BookSt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Domain", "src\BookStore.Domain\BookStore.Domain.csproj", "{84D10446-42D8-402F-AAE3-F8F9437920A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Infrastructure", "src\BookStore.Infrastructure\BookStore.Infrastructure.csproj", "{F2BEF19D-6542-4B27-ACC6-6B99E7E4DFBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,9 +48,22 @@ Global
 		{84D10446-42D8-402F-AAE3-F8F9437920A7}.Release|x64.Build.0 = Release|Any CPU
 		{84D10446-42D8-402F-AAE3-F8F9437920A7}.Release|x86.ActiveCfg = Release|Any CPU
 		{84D10446-42D8-402F-AAE3-F8F9437920A7}.Release|x86.Build.0 = Release|Any CPU
+		{F2BEF19D-6542-4B27-ACC6-6B99E7E4DFBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2BEF19D-6542-4B27-ACC6-6B99E7E4DFBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2BEF19D-6542-4B27-ACC6-6B99E7E4DFBE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F2BEF19D-6542-4B27-ACC6-6B99E7E4DFBE}.Debug|x64.Build.0 = Debug|Any CPU
+		{F2BEF19D-6542-4B27-ACC6-6B99E7E4DFBE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F2BEF19D-6542-4B27-ACC6-6B99E7E4DFBE}.Debug|x86.Build.0 = Debug|Any CPU
+		{F2BEF19D-6542-4B27-ACC6-6B99E7E4DFBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2BEF19D-6542-4B27-ACC6-6B99E7E4DFBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2BEF19D-6542-4B27-ACC6-6B99E7E4DFBE}.Release|x64.ActiveCfg = Release|Any CPU
+		{F2BEF19D-6542-4B27-ACC6-6B99E7E4DFBE}.Release|x64.Build.0 = Release|Any CPU
+		{F2BEF19D-6542-4B27-ACC6-6B99E7E4DFBE}.Release|x86.ActiveCfg = Release|Any CPU
+		{F2BEF19D-6542-4B27-ACC6-6B99E7E4DFBE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9C9D6D89-C3EA-4B78-AC94-04E44BD8A3A2} = {82A99AC8-40F0-4367-A151-39778C0BD821}
 		{84D10446-42D8-402F-AAE3-F8F9437920A7} = {82A99AC8-40F0-4367-A151-39778C0BD821}
+		{F2BEF19D-6542-4B27-ACC6-6B99E7E4DFBE} = {82A99AC8-40F0-4367-A151-39778C0BD821}
 	EndGlobalSection
 EndGlobal
